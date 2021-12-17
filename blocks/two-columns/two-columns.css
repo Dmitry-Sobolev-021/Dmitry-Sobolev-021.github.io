@@ -1,0 +1,13 @@
+@import url('__breef/two-columns__breef.css');
+@import url('__main-text/two-columns__main-text.css');
+@import url('__paragrath/two-columns__paragrath.css');
+@import url('__span-accent/two-columns__span-accent.css');
+.two-columns{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-self: baseline;
+
+    margin: 100px auto;
+    width: 80%;   
+}
